@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR" itemscope itemtype="https://schema.org/Person">
+<head>
+    <!-- Metadados Essenciais -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lukas Rozado | Cientista de Dados & Analista de Dados Profissional</title>
+    
+    <!-- Meta Description Otimizada -->
+    <meta name="description" content="Transformo dados em insights estratégicos. Cientista de Dados e Analista especializado em Python, Machine Learning e Visualização de Dados. Confira meus projetos profissionais.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://lukasrozado.github.io/lukas-rozado">
+    <meta property="og:title" content="Lukas Rozado | Soluções em Ciência de Dados">
+    <meta property="og:description" content="Análise de dados, Machine Learning e Dashboards interativos. Transforme seus dados em vantagem competitiva.">
+    <meta property="og:image" content="https://lukasrozado.github.io/lukas-rozado/assets/images/og-image.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@RozadoLukas">
+    <meta name="twitter:creator" content="@RozadoLukas">
+    <meta name="twitter:title" content="Lukas Rozado | Especialista em Análise de Dados">
+    <meta name="twitter:description" content="Soluções completas em análise de dados e visualização. Confira meus projetos e cases de sucesso.">
+    <meta name="twitter:image" content="https://lukasrozado.github.io/lukas-rozado/assets/images/twitter-card.jpg">
+
+    <!-- Pré-conexão e Pré-carregamento -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" as="style">
+    <link rel="preload" href="/styles/main.css" as="style">
+
+    <!-- Favicon Moderno -->
+    <link rel="icon" href="assets/icons/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+
+    <!-- Estilos Principais -->
+    <link rel="stylesheet" href="/styles/main.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="/styles/main.css"></noscript>
+
+    <!-- Fonte Roboto com Fallback -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        /* Fallback para Fonte do Sistema */
+        @font-face {
+            font-family: 'System Fallback';
+            src: local('Arial'), local('Helvetica');
+            font-display: swap;
+        }
+        body {
+            font-family: 'Roboto', 'System Fallback', sans-serif;
+        }
+    </style>
+
+    <!-- Schema Markup Inline -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Lukas Rozado",
+        "jobTitle": "Cientista de Dados",
+        "url": "https://lukasrozado.github.io/lukas-rozado",
+        "sameAs": [
+            "https://linkedin.com/in/lukasrozado",
+            "https://github.com/lukasrozado",
+            "https://kaggle.com/lukasrozado",
+            "https://www.datacamp.com/portfolio/lukasrozadosilveira",
+            "https://instagram.com/lukasrozado"
+        ],
+        "image": "https://lukasrozado.github.io/lukas-rozado/assets/images/lukasrozado.jpg",
+        "description": "Especialista em análise de dados e desenvolvimento de soluções baseadas em inteligência artificial."
+    }
+    </script>
+</head>
+<body>
+    <!-- Header Semântico -->
+    <header role="banner" itemscope itemtype="https://schema.org/WPHeader">
+        <div data-include="components/pt/header.html"></div>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main id="main-content" role="main" itemprop="mainContentOfPage">
+        <article>
+            <div data-include="components/pt/hero.html"></div>
+            <section aria-labelledby="projects-heading">
+                <div data-include="components/pt/projects-section.html"></div>
+            </section>
+        </article>
+    </main>
+
+    <!-- Footer Semântico -->
+    <footer role="contentinfo" itemscope itemtype="https://schema.org/WPFooter">
+        <div data-include="components/pt/footer.html"></div>
+    </footer>
+
+    <!-- Scripts Otimizados -->
+    <script defer src="assets/js/main.js" type="module"></script>
+    
+    <!-- Web Vitals e Service Worker -->
+    <script>
+        window.addEventListener('load', async function() {
+            // Registrar Service Worker
+            if ('serviceWorker' in navigator) {
+                navigator.serviceWorker.register('/lukas-rozado/sw.js')
+                .then(registration => {
+                    console.log('ServiceWorker registration successful');
+                })
+                .catch(err => {
+                    console.log('ServiceWorker registration failed: ', err);
+                });
+            }
+
+            // Monitorar Web Vitals
+            if (typeof window.gtag === 'function') {
+                const {getCLS, getFID, getLCP} = await import('web-vitals');
+                getCLS(console.log);
+                getFID(console.log);
+                getLCP(console.log);
+            }
+        });
+    </script>
+</body>
+</html>
