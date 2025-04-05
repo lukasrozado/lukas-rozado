@@ -27,16 +27,16 @@
     <!-- Pré-conexão e Pré-carregamento -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" as="style">
-    <link rel="preload" href="/styles/main.css" as="style">
+    <link rel="preload" href="./styles/main.css" as="style">
 
     <!-- Favicon Moderno -->
-    <link rel="icon" href="assets/icons/favicon.ico" sizes="any">
-    <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
-    <link rel="manifest" href="site.webmanifest">
+    <link rel="icon" href="./assets/icons/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="./assets/icons/apple-touch-icon.png">
+    <link rel="manifest" href="./site.webmanifest">
 
     <!-- Estilos Principais -->
-    <link rel="stylesheet" href="/styles/main.css" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="/styles/main.css"></noscript>
+    <link rel="stylesheet" href="./styles/main.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="./styles/main.css"></noscript>
 
     <!-- Fonte Roboto com Fallback -->
     <style>
@@ -75,26 +75,26 @@
 <body>
     <!-- Header Semântico -->
     <header role="banner" itemscope itemtype="https://schema.org/WPHeader">
-        <div data-include="components/pt/header.html"></div>
+        <div data-include="./components/pt/header.html"></div>
     </header>
 
     <!-- Conteúdo Principal -->
     <main id="main-content" role="main" itemprop="mainContentOfPage">
         <article>
-            <div data-include="components/pt/hero.html"></div>
+            <div data-include="./components/pt/hero.html"></div>
             <section aria-labelledby="projects-heading">
-                <div data-include="components/pt/projects-section.html"></div>
+                <div data-include="./components/pt/projects-section.html"></div>
             </section>
         </article>
     </main>
 
     <!-- Footer Semântico -->
     <footer role="contentinfo" itemscope itemtype="https://schema.org/WPFooter">
-        <div data-include="components/pt/footer.html"></div>
+        <div data-include="./components/pt/footer.html"></div>
     </footer>
 
     <!-- Scripts Otimizados -->
-    <script defer src="assets/js/main.js" type="module"></script>
+    <script defer src="./assets/js/main.js" type="module"></script>
     
     <!-- Web Vitals e Service Worker -->
     <script>
