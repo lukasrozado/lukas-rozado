@@ -1,0 +1,119 @@
+{
+    "projects": [
+        
+        {
+            "title": "LCK Spring 2024 Esports Analytics",
+            "description": "Built 3 relational datasets from 1.2k matches: tracked 45 KPIs (KDA=4.2 avg, 63% win rate thresholds). Automated web scraping with Selenium/BeautifulSoup.",
+            "technologies": ["python", "pandas", "selenium", "beautifulsoup", "data-cleaning", "web-scraping", "scikit-learn"],
+            "difficulty": "intermediate",
+            "githubLink": "LINK_GITHUB_LCK_ANALYSIS",
+            "duration": "6h",
+            "techIcons": ["python", "pandas", "selenium", "excel"],
+            "category": "Sports Analytics"
+        },
+        
+        {
+            "title": "LoL Esports Predictive Engine",
+            "description": "Developed & maintained 3+ years ML system: 68% match prediction accuracy (LCK/LCS/LEC). Processed 10k+ matches with 42 features (draft picks, obj timings, meta shifts). Daily Excel automation + Python retraining.",
+            "technologies": ["python", "excel", "scikit-learn", "xgboost", "time-series", "feature-engineering", "model-retraining", "data-scraping, machine-learning"],
+            "difficulty": "advanced",
+            "githubLink": "https://www.linkedin.com/in/lukasrozado/details/projects/1730398819832/single-media-viewer/?type=IMAGE&profileId=ACoAADtoY7gBV6hpvrc0IEoihZrxtELqXCQlBK4",
+            "duration": "3+ years",
+            "techIcons": ["python", "excel", "scikit-learn"],
+            "category": "Predictive Analytics"
+        },
+
+        {
+            "title": "Sales Pipeline Debugging",
+            "description": "Resolved 3 critical data issues: Tax calculation rounding errors (0.1% discrepancy), dynamic threshold validation for Total (±3σ), and NaN handling in 4.7% of Condition_1 checks. Achieved 100% data validation.",
+            "technologies": ["python", "pandas", "data-validation", "anomaly-detection", "data-merging", "time-series"],
+            "difficulty": "beginner",
+            "githubLink": "https://github.com/lukasrozado/debugging-a-Sales-Data-Workflow/",
+            "duration": "2-3h",
+            "techIcons": ["python", "pandas"],
+            "category": "Data Engineering"
+        },
+        {
+            "title": "EV Charging Network Optimization",
+            "description": "Identified 37% coverage gaps in rural areas, optimized fast-charger placement (150kW+ nodes), and correlated 92% EV adoption-growth with urban infrastructure. Processed geospatial + usage data from 5 government datasets.",
+            "technologies": ["python", "geopandas", "folium", "data-merge", "time-series", "spatial-analysis"],
+            "difficulty": "intermediate",
+            "githubLink": "https://github.com/lukasrozado/ev-charging-infrastructure-analysis",
+            "duration": "4-5h",
+            "techIcons": ["python", "pandas"],
+            "category": "Geospatial Analysis"
+        },
+        {
+            "title": "Sleep Health Risk Analysis",
+            "description": "Identified high-risk groups: Sales Reps (lowest sleep=5.8h, quality=4.2/10) & overweight/obese BMI (43%/40% insomnia rates). Analyzed 374 entries with occupation/BMI segmentation.",
+            "technologies": ["python", "pandas", "seaborn", "data-grouping", "ratio-analysis"],
+            "difficulty": "beginner",
+            "githubLink": "https://github.com/lukasrozado/getting-a-good-nights-sleep",
+            "duration": "2h",
+            "techIcons": ["python", "pandas", "seaborn"],
+            "category": "Data Analysis"
+        },
+        {
+            "title": "Netflix Content Trends Analysis",
+            "description": "Processed 8k+ titles data: identified top genres (Drama/Comedy), analyzed release year trends (2015-2020 peak), compared movie/show ratios (70% movies).",
+            "technologies": ["python", "pandas", "matplotlib", "data-cleaning", "datetime-analysis", "data-analysis"],
+            "difficulty": "beginner",
+            "githubLink": "https://github.com/lukasrozado/project-invetigating-data-netflix",
+            "duration": "2h",
+            "techIcons": ["python", "pandas", "matplotlib"],
+            "category": "Data Analysis"
+        },
+        {
+            "title": "NYC School SAT Analysis",
+            "description": "Identified top 10 math schools (score >640), calculated total SAT averages, compared borough performance. Tools: Python, Pandas for data processing.",
+            "technologies": ["python", "pandas", "data-analysis"],
+            "difficulty": "beginner",
+            "githubLink": "https://github.com/lukasrozado/data-analysis-nyc-schools/blob/main/notebook.ipynb",
+            "duration": "2h",
+            "techIcons": ["python", "pandas"],
+            "category": "Data Analysis"
+        },
+        {
+            "title": "Nobel Prize Trends Visualization",
+            "description": "Analyzed 900+ laureates: mapped category dominance (Physics/Medicine), country rankings (US/UK/DE), temporal trends (1901-2020), gender distribution (6% female).",
+            "technologies": ["python", "pandas", "matplotlib", "seaborn", "data-cleaning", "time-series", "data-viz"],
+            "difficulty": "beginner",
+            "githubLink": "https://github.com/lukasrozado/nobel-prize-history-visualization",
+            "duration": "2h",
+            "techIcons": ["python", "pandas", "matplotlib", "seaborn"],
+            "category": "Data Visualization"
+        },
+        {
+            "title": "LA Crime Pattern Analysis",
+            "description": "Identified peak crime hour (12h), top high-risk area (Central), and vulnerable age group (26-34 bracket). Processed 180k+ records with time conversion and age-binning.",
+            "technologies": ["python", "pandas", "seaborn", "data-cleaning", "time-conversion", "age-binning", "data-analysis"],
+            "difficulty": "intermediate",
+            "githubLink": "https://github.com/lukasrozado/analyzing-crime-in-la",
+            "duration": "2h",
+            "techIcons": ["python", "pandas", "matplotlib", "seaborn"],
+            "category": "Data Analysis"
+        },
+        {
+            "title": "Digital Fitness Demand Analysis",
+            "description": "Quantified COVID-19 impact: 300% home vs gym search growth (2020-2022). Key markets: US (score=85), Philippines leads SEA. Tools: Pandas time-series, multi-dataset merge.",
+            "technologies": ["python", "pandas", "matplotlib", "trends-analysis", "data-merge"],
+            "difficulty": "intermediate",
+            "githubLink": "https://github.com/lukasrozado/digital-fitness-market-analysis/blob/main/notebook.ipynb",
+            "duration": "2-3h",
+            "techIcons": ["python", "pandas", "matplotlib"],
+            "category": "Market Analysis"
+        },
+        {
+            "title": "Avocado Supply Chain Optimization",
+            "description": "Identified cost drivers: logistics (38% of total), seasonal price variance (±22%), Mexico dependency (72% imports). Merged 4 datasets (suppliers/transport/prices) with outlier handling.",
+            "technologies": ["python", "pandas", "seaborn", "data-merge", "missing-data-handling", "time-series"],
+            "difficulty": "intermediate",
+            "githubLink": "https://github.com/lukasrozado/avocado-Toast-Supply-Chain-Analysis/blob/main/notebook.ipynb",
+            "duration": "3-4h",
+            "techIcons": ["python", "pandas", "seaborn"],
+            "category": "Supply Chain Analysis"
+        }
+
+
+    ]
+}
