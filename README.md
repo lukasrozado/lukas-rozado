@@ -3,7 +3,7 @@
 
 This is my personal portfolio, fully developed from scratch to present my projects, skills, and background as a Data Scientist and Data Analyst. All content, structure, and design reflect my professional identity and were built with performance, clarity, and visual impact in mind.
 
-🔗 Visit: [lukasrozado.github.io/lukas-rozado](https://lukasrozado.github.io/lukas-rozado)
+🔗 Visit: [lukasrozado.github.io](lukasrozado.github.io)
 
 ---
 
