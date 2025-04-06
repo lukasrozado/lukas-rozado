@@ -1,5 +1,15 @@
 {
     "projects": [
+        {
+    "title": "SEM Campaign Builder for Furniture Retail",
+    "description": "Generated 930 exact/phrase match keywords targeting budget shoppers - excluded 17 luxury terms, prioritized 45 discount modifiers ('sale', 'cheap'). Structured 5 ad groups with product-keyword combinations.",
+    "technologies": ["python", "pandas", "sem-campaigns", "keyword-research"],
+    "difficulty": "beginner",
+    "githubLink": "LINK_GITHUB_SEM_KEYWORDS",
+    "duration": "1h",
+    "techIcons": ["python", "pandas"],
+    "category": "Digital Marketing"
+        },
         
         {
             "title": "LCK Spring 2024 Esports Analytics",
