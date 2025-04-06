@@ -5,7 +5,7 @@
     "description": "Generated 930 exact/phrase match keywords targeting budget shoppers - excluded 17 luxury terms, prioritized 45 discount modifiers ('sale', 'cheap'). Structured 5 ad groups with product-keyword combinations.",
     "technologies": ["python", "pandas", "sem-campaigns", "keyword-research"],
     "difficulty": "beginner",
-    "githubLink": "LINK_GITHUB_SEM_KEYWORDS",
+    "githubLink": "https://github.com/lukasrozado/sem-sofas-keywords-campaign",
     "duration": "1h",
     "techIcons": ["python", "pandas"],
     "category": "Digital Marketing"
@@ -16,7 +16,7 @@
             "description": "Built 3 relational datasets from 1.2k matches: tracked 45 KPIs (KDA=4.2 avg, 63% win rate thresholds). Automated web scraping with Selenium/BeautifulSoup.",
             "technologies": ["python", "pandas", "selenium", "beautifulsoup", "data-cleaning", "web-scraping", "scikit-learn"],
             "difficulty": "intermediate",
-            "githubLink": "LINK_GITHUB_LCK_ANALYSIS",
+            "githubLink": "https://www.kaggle.com/datasets/lukasrozado/lck-spring-2024-players-statistics",
             "duration": "6h",
             "techIcons": ["python", "pandas", "selenium", "excel"],
             "category": "Sports Analytics"
