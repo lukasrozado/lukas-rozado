@@ -51,6 +51,22 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
     };
 
+    document.addEventListener('DOMContentLoaded', () => {
+        const content = document.body.innerText.toLowerCase();
+        const keywords = {
+            pt: ['python', 'dados', 'machine learning', 'análise', 'dashboard'],
+            en: ['python', 'data', 'machine learning', 'analysis', 'visualization']
+        };
+        
+        const lang = document.documentElement.lang === 'pt-BR' ? 'pt' : 'en';
+        const report = keywords[lang].map(kw => ({
+            keyword: kw,
+            count: content.match(new RegExp(kw, 'gi'))?.length || 0
+        }));
+        
+        console.table(report);
+    });
+
     // Fluxo principal
     try {
         await loadComponents();
@@ -66,4 +82,6 @@ document.addEventListener('DOMContentLoaded', async () => {
             </div>
         `;
     }
-});
+}
+
+);

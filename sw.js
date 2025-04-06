@@ -5,7 +5,7 @@ const ASSETS = [
   './index-en.html',
   './styles/main.css',
   './assets/js/main.js',
-  './assets/images/logo-lukas-rozado.png',
+  './assets/images/logo-lukas-rozado.webp',
   './contact.html',
   './contact-en.html'
 ];

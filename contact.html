@@ -14,7 +14,24 @@
 <body>
     <!-- Header -->
     <header role="banner" itemscope itemtype="https://schema.org/WPHeader">
-        <div data-include="./components/pt/header.html"></div>
+        <header>
+            <nav id="navbar">
+                <div class="nav-header">
+                    <a href="./index.html"><img src="./assets/images/logo-lukas-rozado.webp" alt="Lukas Rozado Logo"></a>
+                    <div id="menu-toggle" class="menu-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <ul>
+                    <li><a href="./index.html">Início</a></li>
+                    <li><a href="./index.html#projects">Projetos</a></li>
+                    <li><a href="./contact.html">Contato</a></li>
+                    <li><button class="lang-switch" data-lang="en">EN</button></li>
+                </ul>
+            </nav>
+        </header>
     </header>
 
     <!-- Conteúdo Principal -->
@@ -55,7 +72,7 @@
     </footer>
 
     <!-- Mesmos scripts do index.html -->
-    <script defer src="./assets/js/main.js" type="module"></script>
+    <script defer src="./assets/js/main-contact.js" type="module"></script>
     <script>
         window.addEventListener('load', async function() {
             if ('serviceWorker' in navigator) {

@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /temp/
+Disallow: /drafts/
+
+Crawl-delay: 5
+
+Sitemap: https://lukasrozado.github.io/sitemap.xml
+Sitemap: https://lukasrozado.github.io/sitemap-images.xml
+
+# GitHub Pages Specific
+User-agent: GitHub-Bot
+Disallow: / 
+
+# Security
+User-agent: MJ12bot
+Disallow: /
