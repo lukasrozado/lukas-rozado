@@ -5,7 +5,7 @@
             "description": "Gerou 930 palavras-chave exatas/por frase visando compradores com orçamento limitado - excluiu 17 termos de luxo, priorizou 45 modificadores de desconto ('promoção', 'barato'). Estruturou 5 grupos de anúncios com combinações de produto-palavra-chave.",
             "technologies": ["python", "pandas", "sem-campaigns", "keyword-research"],
             "difficulty": "beginner",
-            "githubLink": "LINK_GITHUB_SEM_KEYWORDS",
+            "githubLink": "https://github.com/lukasrozado/sem-sofas-keywords-campaign",
             "duration": "1h",
             "techIcons": ["python", "pandas"],
             "category": "Marketing Digital"
@@ -15,7 +15,7 @@
             "description": "Construí 3 conjuntos de dados relacionais a partir de 1,2 mil partidas: acompanhei 45 KPIs (KDA=4,2 média, limiares de 63% de taxa de vitória). Automação de coleta de dados da web com Selenium/BeautifulSoup.",
             "technologies": ["python","excel", "pandas", "selenium", "beautifulsoup", "data-cleaning", "web-scraping", "scikit-learn"],
             "difficulty": "intermediate",
-            "githubLink": "LINK_GITHUB_LCK_ANALYSIS",
+            "githubLink": "https://www.kaggle.com/datasets/lukasrozado/lck-spring-2024-players-statistics",
             "duration": "6h",
             "techIcons": ["python", "pandas", "selenium", "excel"],
             "category": "Análise de Esportes"
