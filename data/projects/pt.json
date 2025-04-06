@@ -1,6 +1,16 @@
 {
     "projects": [
         {
+            "title": "Construtor de Campanha SEM para Varejo de Móveis",
+            "description": "Gerou 930 palavras-chave exatas/por frase visando compradores com orçamento limitado - excluiu 17 termos de luxo, priorizou 45 modificadores de desconto ('promoção', 'barato'). Estruturou 5 grupos de anúncios com combinações de produto-palavra-chave.",
+            "technologies": ["python", "pandas", "sem-campaigns", "keyword-research"],
+            "difficulty": "beginner",
+            "githubLink": "LINK_GITHUB_SEM_KEYWORDS",
+            "duration": "1h",
+            "techIcons": ["python", "pandas"],
+            "category": "Marketing Digital"
+        },
+        {
             "title": "Análise de Dados de Esportes LCK Spring 2024",
             "description": "Construí 3 conjuntos de dados relacionais a partir de 1,2 mil partidas: acompanhei 45 KPIs (KDA=4,2 média, limiares de 63% de taxa de vitória). Automação de coleta de dados da web com Selenium/BeautifulSoup.",
             "technologies": ["python","excel", "pandas", "selenium", "beautifulsoup", "data-cleaning", "web-scraping", "scikit-learn"],
