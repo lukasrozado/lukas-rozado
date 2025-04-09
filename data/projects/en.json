@@ -1,6 +1,16 @@
 {
     "projects": [
         {
+  "title": "Lego Licensed Sets Analysis",
+  "description": "Analyzed the impact of licensed sets on Lego’s portfolio by focusing on the Star Wars franchise. The project revealed that 50% of licensed sets belong to Star Wars and identified 2016 as the peak release year. Data processing and analysis were performed using pandas (with optional numpy support) and pivot tables to extract key trends.",
+  "technologies": ["python", "pandas", "numpy", "data-analysis"],
+  "difficulty": "beginner",
+  "githubLink": "https://github.com/lukasrozado/lego-licensed-analysis",
+  "duration": "2h",
+  "techIcons": ["python", "pandas"],
+  "category": "Data Analysis"
+    },
+        {
     "title": "SEM Campaign Builder for Furniture Retail",
     "description": "Generated 930 exact/phrase match keywords targeting budget shoppers - excluded 17 luxury terms, prioritized 45 discount modifiers ('sale', 'cheap'). Structured 5 ad groups with product-keyword combinations.",
     "technologies": ["python", "pandas", "sem-campaigns", "keyword-research"],
