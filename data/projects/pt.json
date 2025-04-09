@@ -1,6 +1,16 @@
 {
     "projects": [
         {
+  "title": "Análise dos Conjuntos Licenciados da Lego",
+  "description": "Analisou o impacto dos conjuntos licenciados no portfólio da Lego, com foco na franquia Star Wars. O projeto revelou que 50% dos conjuntos licenciados são da Star Wars e identificou 2016 como o ano com maior volume de lançamentos. O processamento e a análise dos dados foram realizados utilizando pandas (com suporte opcional do numpy) e tabelas dinâmicas para extrair as principais tendências.",
+  "technologies": ["python", "pandas", "numpy", "data-analysis"],
+  "difficulty": "beginner",
+  "githubLink": "https://github.com/lukasrozado/lego-licensed-analysis",
+  "duration": "2h",
+  "techIcons": ["python", "pandas"],
+  "category": "Análise de Dados"
+},
+        {
             "title": "Construtor de Campanha SEM para Varejo de Móveis",
             "description": "Gerou 930 palavras-chave exatas/por frase visando compradores com orçamento limitado - excluiu 17 termos de luxo, priorizou 45 modificadores de desconto ('promoção', 'barato'). Estruturou 5 grupos de anúncios com combinações de produto-palavra-chave.",
             "technologies": ["python", "pandas", "sem-campaigns", "keyword-research"],
