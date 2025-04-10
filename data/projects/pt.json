@@ -1,6 +1,16 @@
 {
     "projects": [
         {
+  "title": "Análise de Dados do Super Bowl",
+  "description": "Analisou dados de 52 Super Bowls realizados até 2018 para explorar as tendências de audiência televisiva, os resultados dos jogos e as apresentações musicais dos shows do intervalo. A análise revelou que a audiência de TV vem crescendo de forma consistente, goleadas são raras e os shows do intervalo se destacam por si só, com apresentações marcantes de artistas como Justin Timberlake.",
+  "technologies": ["python", "pandas", "matplotlib", "seaborn"],
+  "difficulty": "beginner", 
+  "githubLink": "https://github.com/lukasrozado/superbowl-analysis", 
+  "duration": "2-3h",
+  "techIcons": ["python", "pandas", "matplotlib"],
+  "category": "Análise de Dados"
+    },
+        {
   "title": "Análise dos Conjuntos Licenciados da Lego",
   "description": "Analisou o impacto dos conjuntos licenciados no portfólio da Lego, com foco na franquia Star Wars. O projeto revelou que 50% dos conjuntos licenciados são da Star Wars e identificou 2016 como o ano com maior volume de lançamentos. O processamento e a análise dos dados foram realizados utilizando pandas (com suporte opcional do numpy) e tabelas dinâmicas para extrair as principais tendências.",
   "technologies": ["python", "pandas", "numpy", "data-analysis"],
