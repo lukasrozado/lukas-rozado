@@ -1,6 +1,16 @@
 {
     "projects": [
         {
+  "title": "Super Bowl Data Analysis",
+  "description": "Analyzed data from 52 Super Bowls held until 2018 to explore TV viewership trends, game outcomes, and halftime musical performances. The analysis revealed that TV viewership has consistently grown, blowouts are rare, and halftime shows are a spectacle in their own right, with standout performances by artists like Justin Timberlake.",
+  "technologies": ["python", "pandas", "matplotlib", "seaborn"],
+  "difficulty": "beginner",
+  "githubLink": "https://github.com/lukasrozado/superbowl-analysis", 
+  "duration": "2-3h",
+  "techIcons": ["python", "pandas", "matplotlib"],
+  "category": "Data Analysis"
+    },
+        {
   "title": "Lego Licensed Sets Analysis",
   "description": "Analyzed the impact of licensed sets on Lego’s portfolio by focusing on the Star Wars franchise. The project revealed that 50% of licensed sets belong to Star Wars and identified 2016 as the peak release year. Data processing and analysis were performed using pandas (with optional numpy support) and pivot tables to extract key trends.",
   "technologies": ["python", "pandas", "numpy", "data-analysis"],
