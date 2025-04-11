@@ -4,9 +4,9 @@
             "title": "Online Shopping Purchase Analysis",
             "description": "Analyzes online shopping session data to understand consumer behavior during the busiest shopping months (November and December). The project calculates purchase rates by customer type, investigates correlations among page durations, and forecasts the likelihood of achieving sales targets under a new marketing campaign using SQL queries and Python visualizations.",
             "technologies": ["Python", "pandas", "seaborn", "matplotlib"],
-            "difficulty": "beginner",
+            "difficulty": "intermediate",
             "githubLink": "https://github.com/lukasrozado/ecommerce-purchase-analysis",
-            "duration": "2-3h",
+            "duration": "4h",
             "techIcons": ["python", "pandas","seaborn","matplotlib"],
             "category": "Data Analysis"
           },
