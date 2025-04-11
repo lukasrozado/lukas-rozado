@@ -1,6 +1,36 @@
 {
     "projects": [
         {
+            "title": "Online Shopping Purchase Analysis",
+            "description": "Analyzes online shopping session data to understand consumer behavior during the busiest shopping months (November and December). The project calculates purchase rates by customer type, investigates correlations among page durations, and forecasts the likelihood of achieving sales targets under a new marketing campaign using SQL queries and Python visualizations.",
+            "technologies": ["Python", "pandas", "seaborn", "matplotlib"],
+            "difficulty": "beginner",
+            "githubLink": "https://github.com/lukasrozado/ecommerce-purchase-analysis",
+            "duration": "2-3h",
+            "techIcons": ["python", "pandas","seaborn","matplotlib"],
+            "category": "Data Analysis"
+          },
+          {
+            "title": "International Debt Analysis",
+            "description": "Analyzes international debt data collected by The World Bank to explore economic debt trends in developing countries. The project answers key questions such as the number of distinct countries, identifying which country has the highest debt, and which has the lowest principal repayments using SQL queries on a PostgreSQL database.",
+            "technologies": ["sql", "PostgreSQL"],
+            "difficulty": "beginner",
+            "githubLink": "https://github.com/lukasrozado/international-debt-analysis",
+            "duration": "2h",
+            "techIcons": ["sql"],
+            "category": "Data Analysis"
+          },
+          {
+            "title": "Mental Health Analysis of International Students",
+            "description": "Explores whether studying abroad affects students' mental health based on data from a 2018 survey at a Japanese international university. The project investigates depression scores, social connectedness, acculturative stress, and examines whether the length of stay influences mental health difficulties, using PostgreSQL for data exploration.",
+            "technologies": ["sql", "PostgreSQL"],
+            "difficulty": "beginner",
+            "githubLink": "https://github.com/lukasrozado/international-students-mental-health",
+            "duration": "2h",
+            "techIcons": ["sql"],
+            "category": "Data Analysis"
+          },
+        {
   "title": "Super Bowl Data Analysis",
   "description": "Analyzed data from 52 Super Bowls held until 2018 to explore TV viewership trends, game outcomes, and halftime musical performances. The analysis revealed that TV viewership has consistently grown, blowouts are rare, and halftime shows are a spectacle in their own right, with standout performances by artists like Justin Timberlake.",
   "technologies": ["python", "pandas", "matplotlib", "seaborn"],

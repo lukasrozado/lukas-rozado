@@ -1,6 +1,36 @@
 {
     "projects": [
         {
+            "title": "Análise de Compras Online",
+            "description": "Analyzes online shopping session data to understand consumer behavior during the busiest shopping months (November and December). The project calculates purchase rates by customer type, investigates correlations among page durations, and forecasts the likelihood of achieving sales targets under a new marketing campaign using SQL queries and Python visualizations.",
+            "technologies": ["python", "pandas", "seaborn", "matplotlib"],
+            "difficulty": "beginner",
+            "githubLink": "https://github.com/lukasrozado/ecommerce-purchase-analysis",
+            "duration": "2-3h",
+            "techIcons": ["python", "pandas", "seaborn", "matplotlib"],
+            "category": "Análise de Dados"
+          },
+          {
+            "title": "Análise da Dívida Internacional",
+            "description": "Analyzes international debt data collected by The World Bank to explore economic debt trends in developing countries. The project answers key questions such as the number of distinct countries, identifying which country has the highest debt, and which has the lowest principal repayments using SQL queries on a PostgreSQL database.",
+            "technologies": ["sql", "PostgreSQL"],
+            "difficulty": "beginner",
+            "githubLink": "https://github.com/lukasrozado/international-debt-analysis",
+            "duration": "2h",
+            "techIcons": ["sql"],
+            "category": "Análise de Dados"
+          },
+          {
+            "title": "Análise da Saúde Mental de Estudantes Internacionais",
+            "description": "Explores whether studying abroad affects students' mental health based on data from a 2018 survey at a Japanese international university. The project investigates depression scores, social connectedness, acculturative stress, and examines whether the length of stay influences mental health difficulties, using PostgreSQL for data exploration.",
+            "technologies": ["sql", "PostgreSQL"],
+            "difficulty": "beginner",
+            "githubLink": "https://github.com/lukasrozado/international-students-mental-health",
+            "duration": "2h",
+            "techIcons": ["sql"],
+            "category": "Análise de Dados"
+          },
+        {
   "title": "Análise de Dados do Super Bowl",
   "description": "Analisou dados de 52 Super Bowls realizados até 2018 para explorar as tendências de audiência televisiva, os resultados dos jogos e as apresentações musicais dos shows do intervalo. A análise revelou que a audiência de TV vem crescendo de forma consistente, goleadas são raras e os shows do intervalo se destacam por si só, com apresentações marcantes de artistas como Justin Timberlake.",
   "technologies": ["python", "pandas", "matplotlib", "seaborn"],
