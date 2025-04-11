@@ -2,7 +2,7 @@
     "projects": [
         {
             "title": "Análise de Compras Online",
-            "description": "Analyzes online shopping session data to understand consumer behavior during the busiest shopping months (November and December). The project calculates purchase rates by customer type, investigates correlations among page durations, and forecasts the likelihood of achieving sales targets under a new marketing campaign using SQL queries and Python visualizations.",
+            "description": "Analisa dados de sessões de compras online para entender o comportamento dos consumidores durante os meses mais movimentados (novembro e dezembro). O projeto calcula as taxas de compra por tipo de cliente, investiga as correlações entre as durações das páginas e prevê a probabilidade de atingir as metas de vendas em uma nova campanha de marketing utilizando consultas SQL e visualizações com Python.",
             "technologies": ["python", "pandas", "seaborn", "matplotlib"],
             "difficulty": "intermediate",
             "githubLink": "https://github.com/lukasrozado/ecommerce-purchase-analysis",
@@ -12,7 +12,7 @@
           },
           {
             "title": "Análise da Dívida Internacional",
-            "description": "Analyzes international debt data collected by The World Bank to explore economic debt trends in developing countries. The project answers key questions such as the number of distinct countries, identifying which country has the highest debt, and which has the lowest principal repayments using SQL queries on a PostgreSQL database.",
+            "description": "Analisa os dados de dívida internacional coletados pelo Banco Mundial para explorar as tendências de endividamento econômico em países em desenvolvimento. O projeto responde a questões-chave, como o número de países distintos, identificando qual país possui a maior dívida e qual apresenta os menores pagamentos de principal, utilizando consultas SQL em um banco de dados PostgreSQL.",
             "technologies": ["sql", "PostgreSQL"],
             "difficulty": "beginner",
             "githubLink": "https://github.com/lukasrozado/international-debt-analysis",
@@ -22,7 +22,7 @@
           },
           {
             "title": "Análise da Saúde Mental de Estudantes Internacionais",
-            "description": "Explores whether studying abroad affects students' mental health based on data from a 2018 survey at a Japanese international university. The project investigates depression scores, social connectedness, acculturative stress, and examines whether the length of stay influences mental health difficulties, using PostgreSQL for data exploration.",
+            "description": "Explora se estudar no exterior afeta a saúde mental dos estudantes, com base em dados de uma pesquisa realizada em 2018 em uma universidade internacional japonesa. O projeto investiga as pontuações de depressão, a conexão social e o estresse de aculturação, e examina se a duração da estadia influencia as dificuldades na saúde mental, utilizando PostgreSQL para a exploração dos dados.",
             "technologies": ["sql", "PostgreSQL"],
             "difficulty": "beginner",
             "githubLink": "https://github.com/lukasrozado/international-students-mental-health",
