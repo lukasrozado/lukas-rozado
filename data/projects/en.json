@@ -17,7 +17,7 @@
             "difficulty": "beginner",
             "githubLink": "https://github.com/lukasrozado/international-debt-analysis",
             "duration": "1h",
-            "techIcons": ["sql"],
+            "techIcons": ["sql", "postgresql"],
             "category": "Data Analysis"
           },
           {
@@ -27,7 +27,7 @@
             "difficulty": "beginner",
             "githubLink": "https://github.com/lukasrozado/international-students-mental-health",
             "duration": "1h",
-            "techIcons": ["sql"],
+            "techIcons": ["sql", "postgresql"],
             "category": "Data Analysis"
           },
         {
