@@ -1,6 +1,16 @@
 {
     "projects": [
         {
+      "title": "Análise de Produtos de Roupas Esportivas",
+      "description": "Analisa dados de produtos de um varejista online de roupas esportivas, unindo múltiplos conjuntos de dados para explorar estratégias de precificação e engajamento do consumidor. O projeto classifica os produtos em 'Econômico', 'Médio', 'Caro' e 'Elite' com base nos quartis de preço de listagem, calcula a receita média para Adidas e Nike, e examina a relação entre o comprimento das descrições dos produtos e as avaliações médias usando Python, pandas, seaborn e matplotlib. Esta análise abrangente fornece insights acionáveis para otimizar estratégias de marketing e melhorar fluxos de receita.",
+      "technologies": ["python", "pandas", "seaborn", "matplotlib"],
+      "difficulty": "intermediate",
+      "githubLink": "https://github.com/lukasrozado/sports-apparel-analysis",
+      "duration": "3h",
+      "techIcons": ["python", "pandas", "seaborn", "matplotlib"],
+      "category": "Análise de Dados"
+    },
+        {
             "title": "Análise de Compras Online",
             "description": "Analisa dados de sessões de compras online para entender o comportamento dos consumidores durante os meses mais movimentados (novembro e dezembro). O projeto calcula as taxas de compra por tipo de cliente, investiga as correlações entre as durações das páginas e prevê a probabilidade de atingir as metas de vendas em uma nova campanha de marketing utilizando consultas SQL e visualizações com Python.",
             "technologies": ["python", "pandas", "seaborn", "matplotlib"],
