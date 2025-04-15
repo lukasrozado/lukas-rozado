@@ -1,6 +1,16 @@
 {
     "projects": [
         {
+      "title": "Sports Apparel Analysis",
+      "description": "Analyzes product data from an online sports apparel retailer by merging multiple datasets to explore pricing strategies and consumer engagement. The project categorizes products into 'Budget', 'Average', 'Expensive', and 'Elite' based on listing price quartiles, calculates mean revenue for Adidas and Nike, and examines the relationship between product description lengths and average ratings using Python, pandas, seaborn, and matplotlib. This comprehensive analysis provides actionable insights for optimizing marketing strategies and improving revenue streams.",
+      "technologies": ["python", "pandas", "seaborn", "matplotlib"],
+      "difficulty": "intermediate",
+      "githubLink": "https://github.com/lukasrozado/sports-apparel-analysis",
+      "duration": "3h",
+      "techIcons": ["python", "pandas", "seaborn", "matplotlib"],
+      "category": "Data Analysis"
+    },
+        {
             "title": "Online Shopping Purchase Analysis",
             "description": "Analyzes online shopping session data to understand consumer behavior during the busiest shopping months (November and December). The project calculates purchase rates by customer type, investigates correlations among page durations, and forecasts the likelihood of achieving sales targets under a new marketing campaign using SQL queries and Python visualizations.",
             "technologies": ["Python", "pandas", "seaborn", "matplotlib"],
