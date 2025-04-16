@@ -1,6 +1,26 @@
 {
     "projects": [
         {
+        "title": "Indústrias e Emissões: Análise da Pegada de Carbono",
+        "description": "Este projeto investiga as emissões de gases de efeito estufa associadas aos produtos, levando em conta a energia térmica gerada durante a fabricação e o transporte. Com dados públicos da nature.com, a análise avalia a pegada de carbono dos produtos (PCF) em cada estágio da produção – desde a extração das matérias-primas até a operação e o consumo final. Utilizando uma base de dados PostgreSQL com a tabela 'product_emissions', o estudo agrupa as indústrias, contabiliza o número de empresas únicas e calcula a pegada total de carbono por setor no ano mais recente, contribuindo para estratégias de manufatura sustentável. (Crédito da imagem: Maxim Tolchinskiy via Unsplash)",
+        "technologies": ["sql", "postgresql", "data-analysis"],
+        "difficulty": "beginner",
+        "githubLink": "https://github.com/lukasrozado/industry-carbon-emissions",
+        "duration": "1h",
+        "techIcons": ["sql", "postgresql"],
+        "category": "Análise Ambiental e Sustentabilidade"
+      },
+      {
+        "title": "Era de Ouro dos Videogames: Uma Análise Crítica",
+        "description": "Os videogames são um grande negócio, com o mercado global projetado para ultrapassar US$ 300 bilhões até 2027. Neste projeto, analisa-se as pontuações de críticos e usuários, bem como os dados de vendas dos 400 principais jogos lançados desde 1977, para identificar se uma 'Era de Ouro' dos videogames realmente existe. Através da junção de múltiplos conjuntos de dados – como game_sales, reviews, users_avg_year_rating e critics_avg_year_rating – e utilizando técnicas de filtragem, agrupamento, ordenação e teoria dos conjuntos em SQL, são extraídos insights acionáveis sobre as tendências de mercado dos jogos.",
+        "technologies": ["sql", "postgresql"],
+        "difficulty": "intermediate",
+        "githubLink": "https://github.com/lukasrozado/video-game-golden-age-analysis",
+        "duration": "4-5h",
+        "techIcons": ["sql", "postgresql"],
+        "category": "Análise de Dados e Mercado"
+      },
+        {
       "title": "Análise de Produtos de Roupas Esportivas",
       "description": "Analisa dados de produtos de um varejista online de roupas esportivas, unindo múltiplos conjuntos de dados para explorar estratégias de precificação e engajamento do consumidor. O projeto classifica os produtos em 'Econômico', 'Médio', 'Caro' e 'Elite' com base nos quartis de preço de listagem, calcula a receita média para Adidas e Nike, e examina a relação entre o comprimento das descrições dos produtos e as avaliações médias usando Python, pandas, seaborn e matplotlib. Esta análise abrangente fornece insights acionáveis para otimizar estratégias de marketing e melhorar fluxos de receita.",
       "technologies": ["python", "pandas", "seaborn", "matplotlib"],
