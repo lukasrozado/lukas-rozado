@@ -1,6 +1,26 @@
 {
     "projects": [
         {
+      "title": "Factories Creating Emissions",
+      "description": "Este projeto explora as emissões de gases de efeito estufa atribuíveis a produtos, levando em conta a geração de calor necessária para a fabricação e transporte. Com base em dados públicos da nature.com, o projeto utiliza informações sobre a pegada de carbono de produtos (PCF) medindo o equivalente em CO2 para diferentes estágios da produção, desde a extração de matérias-primas até a operação e o uso final. Usando uma base de dados PostgreSQL com a tabela 'product_emissions', a análise identifica o número de empresas únicas e a pegada de carbono total por grupo de indústria para o ano mais recente. A consulta SQL aplicada permite filtrar, agrupar e ordenar os dados, revelando quais setores possuem as maiores emissões e contribuindo para estratégias de manufatura sustentável. (Crédito da imagem: Maxim Tolchinskiy via Unsplash)",
+      "technologies": ["sql", "postgresql", "data-analysis"],
+      "difficulty": "beginner",
+      "githubLink": "https://github.com/lukasrozado/industry-carbon-emissions",
+      "duration": "1h",
+      "techIcons": ["sql", "postgresql"],
+      "category": "Environmental Data Analysis"
+    },
+        {
+      "title": "Golden Age of Video Games Analysis",
+      "description": "Video games are big business: the global gaming market is projected to be worth over $300 billion by 2027. In this project, you'll analyze critic and user scores along with sales data for the top 400 video games released since 1977. The goal is to discover if a 'Golden Age' of video games exists by identifying the best-rated release years and by investigating the business side through best-selling titles. You will join multiple datasets—including game_sales, reviews, users_avg_year_rating, and critics_avg_year_rating—and use filtering, grouping, ordering, and set theory techniques in SQL to extract actionable insights on market trends.",
+      "technologies": ["sql", "postgresql"],
+      "difficulty": "intermediate",
+      "githubLink": "https://github.com/lukasrozado/video-game-golden-age-analysis",
+      "duration": "4-5h",
+      "techIcons": ["sql", "postgresql"],
+      "category": "Data Analysis"
+    },
+        {
       "title": "Sports Apparel Analysis",
       "description": "Analyzes product data from an online sports apparel retailer by merging multiple datasets to explore pricing strategies and consumer engagement. The project categorizes products into 'Budget', 'Average', 'Expensive', and 'Elite' based on listing price quartiles, calculates mean revenue for Adidas and Nike, and examines the relationship between product description lengths and average ratings using Python, pandas, seaborn, and matplotlib. This comprehensive analysis provides actionable insights for optimizing marketing strategies and improving revenue streams.",
       "technologies": ["python", "pandas", "seaborn", "matplotlib"],
