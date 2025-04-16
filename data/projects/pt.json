@@ -2,7 +2,7 @@
     "projects": [
         {
         "title": "Indústrias e Emissões: Análise da Pegada de Carbono",
-        "description": "Este projeto investiga as emissões de gases de efeito estufa associadas aos produtos, levando em conta a energia térmica gerada durante a fabricação e o transporte. Com dados públicos da nature.com, a análise avalia a pegada de carbono dos produtos (PCF) em cada estágio da produção – desde a extração das matérias-primas até a operação e o consumo final. Utilizando uma base de dados PostgreSQL com a tabela 'product_emissions', o estudo agrupa as indústrias, contabiliza o número de empresas únicas e calcula a pegada total de carbono por setor no ano mais recente, contribuindo para estratégias de manufatura sustentável. (Crédito da imagem: Maxim Tolchinskiy via Unsplash)",
+        "description": "Este projeto investiga as emissões de gases de efeito estufa associadas aos produtos, levando em conta a energia térmica gerada durante a fabricação e o transporte. Com dados públicos da nature.com, a análise avalia a pegada de carbono dos produtos (PCF) em cada estágio da produção – desde a extração das matérias-primas até a operação e o consumo final. Utilizando uma base de dados PostgreSQL com a tabela 'product_emissions', o estudo agrupa as indústrias, contabiliza o número de empresas únicas e calcula a pegada total de carbono por setor no ano mais recente, contribuindo para estratégias de manufatura sustentável.",
         "technologies": ["sql", "postgresql", "data-analysis"],
         "difficulty": "beginner",
         "githubLink": "https://github.com/lukasrozado/industry-carbon-emissions",
