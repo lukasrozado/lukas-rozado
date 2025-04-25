@@ -5,7 +5,7 @@
             "description": "This project investigates the characteristics of the world's oldest continuously operating businesses using four CSV datasets (businesses, new_businesses, countries, categories). The analysis involves merging data to identify the oldest businesses per continent, the most enduring business categories, and historical patterns of enterprise longevity. Clustering and aggregation techniques reveal insights into the relationship between economic sectors, geographic location, and centuries-long sustainability.",
             "technologies": ["python", "pandas", "data-merge", "data-analysis"],
             "difficulty": "intermediate",
-            "githubLink": https://github.com/lukasrozado/worlds-oldest-business-analysis/s",
+            "githubLink": https://github.com/lukasrozado/worlds-oldest-business-analysis",
             "duration": "4h",
             "techIcons": ["python", "pandas"],
             "category": "Data Analysis"
