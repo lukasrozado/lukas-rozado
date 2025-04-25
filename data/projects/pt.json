@@ -1,6 +1,16 @@
 {
     "projects": [
         {
+            "title": "Análise das Empresas Mais Antigas por Continente e Categoria",
+            "description": "Este projeto investiga as características das empresas mais antigas em operação, utilizando dados de 4 conjuntos CSV (businesses, new_businesses, countries, categories). A análise envolve a junção de dados para identificar as empresas mais antigas por continente, categorias mais duradouras e padrões históricos de longevidade empresarial. Técnicas de agrupamento e agregação são aplicadas para revelar insights sobre a relação entre setores econômicos, localização geográfica e sustentabilidade ao longo de séculos.",
+            "technologies": ["python", "pandas", "data-merge", "data-analysis"],
+            "difficulty": "intermediate",
+            "githubLink": "https://github.com/lukasrozado/worlds-oldest-business-analysis",
+            "duration": "4h",
+            "techIcons": ["python", "pandas"],
+            "category": "Análise de Dados"
+        },
+        {
         "title": "Indústrias e Emissões: Análise da Pegada de Carbono",
         "description": "Este projeto investiga as emissões de gases de efeito estufa associadas aos produtos, levando em conta a energia térmica gerada durante a fabricação e o transporte. Com dados públicos da nature.com, a análise avalia a pegada de carbono dos produtos (PCF) em cada estágio da produção – desde a extração das matérias-primas até a operação e o consumo final. Utilizando uma base de dados PostgreSQL com a tabela 'product_emissions', o estudo agrupa as indústrias, contabiliza o número de empresas únicas e calcula a pegada total de carbono por setor no ano mais recente, contribuindo para estratégias de manufatura sustentável.",
         "technologies": ["sql", "postgresql", "data-analysis"],
