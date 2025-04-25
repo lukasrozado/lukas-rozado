@@ -1,6 +1,16 @@
 {
     "projects": [
         {
+            "title": "Analysis of the Oldest Businesses by Continent and Category",
+            "description": "This project investigates the characteristics of the world's oldest continuously operating businesses using four CSV datasets (businesses, new_businesses, countries, categories). The analysis involves merging data to identify the oldest businesses per continent, the most enduring business categories, and historical patterns of enterprise longevity. Clustering and aggregation techniques reveal insights into the relationship between economic sectors, geographic location, and centuries-long sustainability.",
+            "technologies": ["python", "pandas", "data-merge", "data-analysis"],
+            "difficulty": "intermediate",
+            "githubLink": https://github.com/lukasrozado/worlds-oldest-business-analysis/s",
+            "duration": "4h",
+            "techIcons": ["python", "pandas"],
+            "category": "Data Analysis"
+        },
+        {
       "title": "Factories Creating Emissions",
       "description": "This project explores greenhouse gas emissions attributable to products, taking into account the heat generation required for manufacturing and transportation. Based on public data from nature.com, the project uses information on the carbon footprint of products (PCF) by measuring the CO2 equivalent for different stages of production, from the protection of raw materials to operation and end use. Using a PostgreSQL database with the ‘product_emissions’ table, the analysis identifies the number of unique companies and the total carbon footprint by industry group for the most recent year. An applied SQL query allows filtering, grouping and sorting of the data, revealing which sectors have the highest emissions and contribute to sustainable innovation strategies.",
       "technologies": ["sql", "postgresql", "data-analysis"],
