@@ -1,6 +1,36 @@
 {
     "projects": [
         {
+      "title": "Análise de Nomes de Bebês",
+      "description": "Realiza uma análise histórica em SQL da popularidade de nomes de bebês, classificando os nomes como “Clássico” (aparecem em 50 ou mais anos) ou “Moderno” (menos de 50 anos), ranqueando os 20 nomes masculinos mais populares e identificando a posição do nome “Paul”, além de listar os nomes femininos que aparecem tanto em 1920 quanto em 2020.",
+      "technologies": ["sql", "postgresql"],
+      "difficulty": "intermediário",
+      "githubLink": "https://github.com/lukasrozado/baby-names-analysis",
+      "duration": "2h",
+      "techIcons": ["sql", "postgresql"],
+      "category": "Análise de Dados"
+    },
+    {
+      "title": "Análise de Desempenho Estudantil com SQL",
+      "description": "Analisa o impacto das horas de estudo, participação em atividades extracurriculares e outros fatores de estilo de vida no desempenho em exames usando SQL. Inclui consultas para comparar notas de estudantes que estudam mais de 10 horas por semana com atividades extracurriculares, encontrar a “faixa ideal” de horas de estudo e atribuir ranking relativo na turma via funções de janela.",
+      "technologies": ["sql", "postgresql"],
+      "difficulty": "intermediário",
+      "githubLink": "https://github.com/lukasrozado/student-performance-sql-analysis",
+      "duration": "1h",
+      "techIcons": ["sql", "postgresql"],
+      "category": "Análise de Dados Educacionais"
+    },
+    {
+      "title": "Análise de Impacto da GoodThought",
+      "description": "Examina as iniciativas da ONG GoodThought calculando as cinco atribuições com maior valor total de doações (agrupadas por tipo de doador) e identificando a atribuição de maior impacto em cada região, garantindo que todas tenham recebido ao menos uma doação.",
+      "technologies": ["sql", "postgresql"],
+      "difficulty": "intermediário",
+      "githubLink": "https://github.com/lukasrozado/goodthought-impact-analysis",
+      "duration": "1h",
+      "techIcons": ["sql", "postgresql"],
+      "category": "Análise de Dados para ONGs"
+    },
+        {
             "title": "Análise das Empresas Mais Antigas por Continente e Categoria",
             "description": "Este projeto investiga as características das empresas mais antigas em operação, utilizando dados de 4 conjuntos CSV (businesses, new_businesses, countries, categories). A análise envolve a junção de dados para identificar as empresas mais antigas por continente, categorias mais duradouras e padrões históricos de longevidade empresarial. Técnicas de agrupamento e agregação são aplicadas para revelar insights sobre a relação entre setores econômicos, localização geográfica e sustentabilidade ao longo de séculos.",
             "technologies": ["python", "pandas", "data-merge", "data-analysis"],
