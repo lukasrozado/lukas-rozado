@@ -1,6 +1,36 @@
 {
     "projects": [
         {
+      "title": "Baby Names Analysis",
+      "description": "Performs a historical SQL analysis of baby name popularity, classifying names as “Classic” (appearing in 50+ years) or “Trendy” (fewer than 50 years), ranking the top 20 male names overall and locating the rank of “Paul,” and identifying female names appearing in both 1920 and 2020.",
+      "technologies": ["sql", "postgresql"],
+      "difficulty": "intermediate",
+      "githubLink": "https://github.com/lukasrozado/baby-names-analysis",
+      "duration": "2h",
+      "techIcons": ["sql", "postgresql"],
+      "category": "Data Analysis"
+    },
+    {
+      "title": "Student Performance SQL Analysis",
+      "description": "Analyzes the impact of study hours, extracurricular activities, and other lifestyle factors on exam scores using SQL. Includes queries to compare scores for students studying over 10 hours with extracurriculars, to find the “sweet spot” study‑hour range, and to assign relative class ranks via window functions.",
+      "technologies": ["sql", "postgresql"],
+      "difficulty": "intermediate",
+      "githubLink": "https://github.com/lukasrozado/student-performance-sql-analysis",
+      "duration": "1h",
+      "techIcons": ["sql", "postgresql"],
+      "category": "Education Data Analysis"
+    },
+    {
+      "title": "GoodThought Impact Analysis",
+      "description": "Examines GoodThought NGO initiatives by computing the top five assignments by total donation value (grouped by donor type) and identifying the highest-impact assignment in each region, ensuring each has received donations.",
+      "technologies": ["sql", "postgresql"],
+      "difficulty": "intermediate",
+      "githubLink": "https://github.com/lukasrozado/goodthought-impact-analysis",
+      "duration": "1h",
+      "techIcons": ["sql", "postgresql"],
+      "category": "Nonprofit Data Analysis"
+    },
+        {
             "title": "Analysis of the Oldest Businesses by Continent and Category",
             "description": "This project investigates the characteristics of the world's oldest continuously operating businesses using four CSV datasets (businesses, new_businesses, countries, categories). The analysis involves merging data to identify the oldest businesses per continent, the most enduring business categories, and historical patterns of enterprise longevity. Clustering and aggregation techniques reveal insights into the relationship between economic sectors, geographic location, and centuries-long sustainability.",
             "technologies": ["python", "pandas", "data-merge", "data-analysis"],
