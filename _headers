@@ -6,3 +6,5 @@
 
 /*.css
   Cache-Control: public, max-age=604800
+/*
+  Permissions-Policy: geolocation=(), microphone=()
