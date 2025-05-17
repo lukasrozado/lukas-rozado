@@ -125,39 +125,22 @@
     <script defer src="./assets/js/main.js" type="module"></script>
     
     <!-- Web Vitals e Service Worker -->
-    <script>
-       window.addEventListener('load', async function() {
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('./sw.js')
-            .then(registration => {
-                console.log('ServiceWorker registration successful');
-            })
-            .catch(err => {
-                console.log('ServiceWorker registration failed: ', err);
-            });
+    <script type="module">
+        import { getCLS, getFID, getLCP } 
+          from 'https://unpkg.com/web-vitals@3.0.0/dist/web-vitals.js';
+      
+        if (typeof window.gtag === 'function') {
+          getCLS(metric => gtag('event', 'CLS', { value: metric.value }));
+          getFID(metric => gtag('event', 'FID', { value: metric.value }));
+          getLCP(metric => gtag('event', 'LCP', { value: metric.value }));
         }
-
-            // Monitorar Web Vitals
-            if (typeof window.gtag === 'function') {
-                const {getCLS, getFID, getLCP} = await import('web-vitals');
-                getCLS(console.log);
-                getFID(console.log);
-                getLCP(console.log);
-            }
-        });
-    </script>
-    <script>
-        // Forçar atualização do Service Worker
+      </script>
+      
+      <script>
+        // Registro simples do Service Worker
         if('serviceWorker' in navigator) {
-          navigator.serviceWorker.getRegistrations().then(registrations => {
-            for(let registration of registrations) {
-              registration.unregister();
-            }
-            caches.keys().then(names => {
-              for(let name of names) caches.delete(name);
-            });
-          });
+          navigator.serviceWorker.register('./sw.js');
         }
-        </script>
+      </script>
 </body>
 </html>
