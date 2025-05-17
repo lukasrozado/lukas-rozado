@@ -5,19 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lukas Rozado | Data Scientist & Analyst - Python/ML</title>
-    
-    <!-- Optimized Meta Description -->
-    <meta name="description" content="Python & ML expert transforming raw data into actionable insights. Explore real-world data analysis and visualization projects.">
-    
-    <!-- Optimized Keywords  -->
+    <meta name="theme-color" content="#00D4FF">
+    <link rel="canonical" href="https://lukasrozado.github.io/">
+    <meta name="generator" content="GitHub Pages">
 
-    <meta name="keywords" content="python data analysis,machine learning projects,data visualization portfolio,python dashboard examples,predictive modeling expert">
-    
+    <!-- Optimized Meta Description -->
+    <meta name="description" content="Portfolio of real Data Science projects: Machine Learning, Python, Interactive Dashboards. Turning data into strategic business insights.">
+
+    <!-- Keywords -->
+    <meta name="keywords" content="python data,python data analysis,machine learning projects,data dashboards,data science portfolio">
+
+    <!-- SEO Optimization -->
+    <meta http-equiv="content-language" content="en, pt-BR">
+    <meta name="geo.region" content="BR-RS">
+
+    <!-- Indexing and Crawling -->
+    <meta name="revisit-after" content="7 days">
+    <meta name="robots" content="index,follow,max-image-preview:large">
+
+    <!-- Author -->
+    <meta name="author" content="Lukas Rozado">
+    <link rel="me" href="mailto:lukasrozado@proton.me">
+
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://lukasrozado.github.io/lukas-rozado">
-    <meta name="twitter:title" content="Projetos de Análise de Dados | Lukas Rozado">
-    <meta name="twitter:description" content="Dashboards interativos e modelos de Machine Learning com Python. Análises quantitativas para tomada de decisão.">
+    <meta property="og:title" content="Lukas Rozado | Python Data Solutions">
+    <meta property="og:description" content="Portfolio of real Data Science projects: Machine Learning, Python, Interactive Dashboards.">
     <meta property="og:image" content="https://lukasrozado.github.io/lukas-rozado/assets/images/og-image.webp">
 
     <!-- Twitter -->
@@ -25,36 +39,22 @@
     <meta name="twitter:site" content="@RozadoLukas">
     <meta name="twitter:creator" content="@RozadoLukas">
     <meta name="twitter:title" content="Data Analysis Projects | Lukas Rozado">
-    <meta name="twitter:description" content="Interactive dashboards & Python ML models. Quantitative analysis for data-driven decisions.">
+    <meta name="twitter:description" content="Interactive dashboards and machine learning models with Python. Quantitative analysis for decision-making.">
     <meta name="twitter:image" content="https://lukasrozado.github.io/lukas-rozado/assets/images/twitter-card.webp">
 
-    <!-- Preconnection and Preloading -->
+    <!-- Preconnect and Preload -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" as="style">
     <link rel="preload" href="./styles/main.css" as="style">
-    
 
     <!-- Modern Favicon -->
     <link rel="icon" href="./assets/icons/favicon.ico" sizes="any">
-    <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.webp">
-    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="./assets/icons/favicon-180x180.webp">
+    <link rel="manifest" href="./site.webmanifest">
 
     <!-- Main Styles -->
     <link rel="stylesheet" href="./styles/main.css" media="print" onload="this.media='all'">
     <noscript><link rel="stylesheet" href="./styles/main.css"></noscript>
-
-    <!-- Optmize SEO-->
-
-    <meta http-equiv="content-language" content="pt-BR, en">
-    <meta name="geo.region" content="BR-RS">
-    
-    <!-- Indexação e Crawling -->
-    <meta name="revisit-after" content="7 days">
-    <meta name="robots" content="index,follow,max-image-preview:large">
-    
-    <!-- Autoria -->
-    <meta name="author" content="Lukas Rozado">
-    <link rel="me" href="mailto:lukasrozado@proton.me">
 
     <!-- Roboto Font with Fallback -->
     <style>
@@ -70,7 +70,7 @@
         }
     </style>
 
-    <!-- Schema Markup -->
+    <!-- Inline Schema Markup -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -86,9 +86,18 @@
             "https://instagram.com/lukasrozado"
         ],
         "image": "https://lukasrozado.github.io/lukas-rozado/assets/images/lukasrozado.webp",
-        "description": "Expert in data analysis and development of AI-based solutions."
+        "description": "Specialist in data analysis and AI-powered solution development."
     }
     </script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RD4581V881"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RD4581V881');
+</script>
 </head>
 <body>
     <!-- Semantic Header -->
@@ -114,9 +123,9 @@
     <!-- Optimized Scripts -->
     <script defer src="./assets/js/main.js" type="module"></script>
     
-    <!-- Web Vitals & Service Worker -->
+    <!-- Web Vitals and Service Worker -->
     <script>
-        window.addEventListener('load', async function() {
+       window.addEventListener('load', async function() {
         if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('./sw.js')
             .then(registration => {
@@ -137,7 +146,7 @@
         });
     </script>
     <script>
-        // Forçar atualização do Service Worker
+        // Force Service Worker Update
         if('serviceWorker' in navigator) {
           navigator.serviceWorker.getRegistrations().then(registrations => {
             for(let registration of registrations) {
@@ -148,8 +157,6 @@
             });
           });
         }
-        </script>
+    </script>
 </body>
 </html>
-
-

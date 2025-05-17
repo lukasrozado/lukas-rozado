@@ -1,19 +1,6 @@
-// assets/js/modules/projects-loader.js
-export async function loadProjects() {
-    try {
-        if (!document.querySelector('.projects-grid')) return;
-        const lang = window.location.pathname.includes('index-en.html') ? 'en' : 'pt';
-        
-        const response = await fetch(`./data/projects/${lang}.json`);
-        const data = await response.json();
-        
-        const grid = document.querySelector('.projects-grid');
-        grid.innerHTML = '';
-
-        data.projects.forEach(project => {
-            const cardHTML = `
+export async function loadProjects(){try{if(!document.querySelector(".projects-grid"))return;const lang=window.location.pathname.includes("index-en.html")?"en":"pt";const response=await fetch(`./data/projects/${lang}.json`);const data=await response.json();const grid=document.querySelector(".projects-grid");grid.innerHTML="";data.projects.forEach(project=>{const cardHTML=`
                 <article class="project-card" 
-                         data-technologies="${project.technologies.join(' ')}" 
+                         data-technologies="${project.technologies.join(" ")}" 
                          data-difficulty="${project.difficulty}">
                     <div class="card-content-wrapper">
                         <a href="${project.githubLink}" target="_blank" class="project-link">
@@ -32,25 +19,13 @@ export async function loadProjects() {
             
                             <div class="card-footer">
                                 <div class="tech-stack">
-                                    ${project.techIcons.map(icon => `
+                                    ${project.techIcons.map(icon=>`
                                         <img src="assets/icons/${icon}.svg" alt="${icon}" class="tech-icon">
-                                    `).join('')}
+                                    `).join("")}
                                 </div>
                                 <span class="project-duration">${project.duration}</span>
                             </div>
                         </a>
                     </div>
                 </article>
-            `;
-            
-            grid.insertAdjacentHTML('beforeend', cardHTML);
-        });
-
-    } catch (error) {
-        console.error('Error loading projects:', error);
-        document.getElementById('project-count').textContent = 
-            window.location.pathname.includes('index-en.html') 
-            ? 'Error loading projects' 
-            : 'Erro ao carregar projetos';
-    }
-}
+            `;grid.insertAdjacentHTML("beforeend",cardHTML)})}catch(error){console.error("Error loading projects:",error);document.getElementById("project-count").textContent=window.location.pathname.includes("index-en.html")?"Error loading projects":"Erro ao carregar projetos"}}
